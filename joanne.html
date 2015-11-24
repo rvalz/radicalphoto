@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<title>RadicalPhoto Joanne</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="author" content="RadicalPhoto">
+	<meta name="description" content="RadicalPhoto is an award-winning photography studio in Toronto Ontario.">
 	<link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
 	<link type="text/css" rel="stylesheet" href="css/radicalphoto.css">
+	<!--[if lt IE 9]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>RadicalPhoto</h1>
+    </header>
 
-<div id="header">
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="gallery.html">Gallery</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="contact.html">Contact</a>
-	</ul>
+    <div id="main_wrapper">
+        <section id="content">
+            <h2>Joanne</h2>
+            <p><img src="images/bio2-joanne.jpg" alt="A photograph of Joanne with her camera" width="200" height="133"></p>
+            <p>Joanne is a multiple award-winning journalist and photographer, whose work has been featured in the New York Times, Time magazine and CNN.</p>
+        </section><!-- #content -->
 
-	<h1>RadicalPhoto</h1>
-
-</div>
-
-<div id="main_wrapper">
-
-	<div id="content">
-	<h2>Joanne</h2>
-
-	<p><img src="images/bio2.jpg" alt="Joanne"></p>
-
-	<p>Joanne is a multiple award winning journalist and photographer, whose work has been featured in the New York Times, Time magazine and CNN.</p>
-
-	</div>
-
-	<div id="footer">
-	<p>All content &copy; Copyright</p>
-	</div>
-
-</div>
-
+        <footer>
+            <p><small>All content &copy; Copyright <span id="copy_year"> </span></small></p>
+        </footer>
+    </div><!-- #main_wrapper -->
+    <script src="js/main.js"></script>
 </body>
 </html>
