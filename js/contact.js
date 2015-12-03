@@ -55,10 +55,6 @@ myForm.onsubmit = function() {
         theMessage.style.background = "#FFF";
         theMessage.style.boxShadow = "none";
         errorMsg.innerHTML = " ";
-            theMessage.onkeydown() = function () {
-            theMessage.style.border = "1px solid #333";
-            theMessage.style.boxShadow = "none";
-        }
     }
 
     if (errors>0) {
